@@ -15,7 +15,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
         console.log('valid user');
     }
     else{
-        console.log('invalid user');
+        alert('your password is invalid');
     }
     
 });
