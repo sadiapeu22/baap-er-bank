@@ -15,17 +15,17 @@
             <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-black ">
                <div class="bg-blue-500 p-8 rounded-sm ">
                 <h4 class="text-2xl">Deposit</h4>
-                <h2 class="text-5xl">$000</h2>
+                <h2 class="text-5xl">$<span id="deposite-total">000</span></h2>
                </div>
 
                <div class="bg-violet-600 p-8 rounded-sm">
                 <h4 class="text-2xl">Withdraw</h4>
-                <h2 class="text-5xl">$000</h2>
+                <h2 class="text-5xl">$<span id="deposite-total">000</span></h2>
                </div>
 
                <div class="bg-yellow-500 p-8 rounded-sm">
                 <h4 class="text-2xl">Balance</h4>
-                <h2 class="text-5xl">$1240</h2>
+                <h2 class="text-5xl">$<span id="deposite-total">1240</span></h2>
                </div>
             </div>
          </section>
@@ -36,7 +36,7 @@
                 <div class="bg-fuchsia-300 p-8 rounded-sm ">
                  <h4 class="text-2xl mb-2">Please Deposit</h4>
                  <div>
-                    <input class="w-10/12 block m-2 px-3 bg-white rounded-sm" type="email" name="" id="user-deposite" placeholder="$Amount you want to deposite">
+                    <input class="w-10/12 block m-2 px-3 bg-white rounded-sm" type="text" name="" id="user-deposite" placeholder="$Amount you want to deposite">
                     
                     <button id="btn-deposite" class="bg-amber-600 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-sm m-2">Deposite</button>
                 </div>
@@ -44,7 +44,7 @@
  
                 <div class="bg-indigo-300 p-8 rounded-sm">
                  <h4 class="text-2xl mb-2">Please Withdraw</h4>
-                 <input class="w-10/12 block m-2 px-3 bg-white rounded-sm" type="email" name="" id="user-withdraw" placeholder="$Amount you want to withdraw">
+                 <input class="w-10/12 block m-2 px-3 bg-white rounded-sm" type="text" name="" id="user-withdraw" placeholder="$Amount you want to withdraw">
                     
                  <button id="btn-withdraw" class="bg-amber-600 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-sm m-2">Withdraw</button>
                 </div>
@@ -52,5 +52,6 @@
              </div>
         </section>
     </main>
+    <script src="js/deposite.js"></script>
 </body>
 </html>
